@@ -1,12 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+/*
+ * @Descripttion:
+ * @Author: cui
+ * @Date: 2021-09-03 16:52:51
+ * @LastEditors: cui
+ * @LastEditTime: 2021-09-03 17:59:47
+ */
+import React from 'react'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
@@ -20,7 +25,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
