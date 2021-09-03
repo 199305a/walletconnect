@@ -3,22 +3,25 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@types/eth-sig-util": "^2.1.1",
-    "@walletconnect/client": "^1.6.5",
-    "@walletconnect/qrcode-modal": "^1.6.5",
-    "axios": "^0.21.1",
-    "bignumber.js": "^9.0.1",
-    "blockies-ts": "^1.0.0",
-    "eth-sig-util": "^2.5.3",
-    "ethereumjs-util": "^7.0.6",
-    "ethers": "^5.0.17",
-    "node-gyp": "^8.1.0",
-    "prop-types": "^15.7.2",
-    "qr-image": "^3.2.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-scripts-ts": "^4.0.8",
-    "styled-components": "^5.2.0"
+    "@reduxjs/toolkit": "^1.5.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.7",
+    "@types/react-router-dom": "^5.1.8",
+    "@types/styled-components": "^5.1.13",
+    "date-fns": "^2.23.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.1",
+    "react-scripts": "4.0.3",
+    "styled-components": "^5.3.1",
+    "typescript": "~4.1.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,35 +30,7 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "devDependencies": {
-    "@types/axios": "^0.14.0",
-    "@types/better-sqlite3": "^5.4.1",
-    "@types/bignumber.js": "^5.0.0",
-    "@types/bn.js": "^4.11.5",
-    "@types/jest": "^24.0.25",
-    "@types/node": "^13.1.6",
-    "@types/prop-types": "^15.7.3",
-    "@types/qr-image": "^3.2.3",
-    "@types/react": "^16.9.51",
-    "@types/react-dom": "^16.9.8",
-    "@types/styled-components": "^5.1.3",
-    "@typescript-eslint/eslint-plugin": "^2.20.0",
-    "@typescript-eslint/parser": "^2.20.0",
-    "eslint-config-prettier": "^6.12.0",
-    "eslint-config-react": "^1.1.7",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "prettier": "^1.19.1",
-    "typescript": "^3.7.4"
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
@@ -68,5 +43,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {}
 }
